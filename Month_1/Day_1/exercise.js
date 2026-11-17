@@ -1,6 +1,7 @@
 
 
 let customerName = "Rahul"
+const role = "admin"
 
 console.log(customerName);
 
