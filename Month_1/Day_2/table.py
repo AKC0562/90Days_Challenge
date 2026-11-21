@@ -40,3 +40,17 @@ print(files)   '''
 
 # print(name[0:4:2])
 
+# from datetime import date
+
+# name = input("Enter your name")
+
+
+# # print("Good Afternoon",name)
+
+# print(f"Dear {name}, \n\nYou are Selected !! \n\n {date.today()}")
+
+# s = input("Enter a string: ")
+# count = s.count(" ")
+# print(f"Number of spaces: {count}")   
+
+
