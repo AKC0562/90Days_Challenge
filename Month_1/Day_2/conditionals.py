@@ -34,3 +34,11 @@
 # else:
 #     print("fail")
 
+# keywords = ["make a lot of money", "buy now", "subscribe this", "click this"]
+
+# comment = input("Enter a comment: ").lower()
+
+# if any(word in comment for word in keywords):
+#     print("Span")
+# else:
+#     print("No Span")
