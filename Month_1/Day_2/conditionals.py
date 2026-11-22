@@ -42,3 +42,25 @@
 #     print("Span")
 # else:
 #     print("No Span")
+
+
+marks = int(input("Enter the marks: "))
+
+if marks>=100:
+    print("please enter a valid marks")
+    marks = int(input("Enter the marks: "))
+
+
+
+if 100>=marks>=90:
+    print("Ex")
+elif 89>=marks>=80:
+    print("A")
+elif 79>=marks>=70:
+    print("B")
+elif 69>=marks>=60:
+    print("C")
+elif 59>=marks>=50:
+    print("D")
+else:
+    print("F")
