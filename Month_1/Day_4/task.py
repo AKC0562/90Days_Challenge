@@ -1,26 +1,24 @@
-def convert(frac) :
-    x,y = map(int, frac.split("/"))
+def convert(frac):
+    x,y = map(int,frac.split("/"))
     if x>y:
-        raise ValueError("The numerator is greator than denominator.")
-    return round(x/y *100)
+        raise ValueError
+    return round(x/y*100)
 
-def gause(percentage):
-    if percentage<=1:
+def fuel_gause(perC):
+    if perC<=1:
         return "E"
-    elif percentage>=99:
+    elif perC>=99:
         return "F"
     else:
-        return f"{percentage}%"
+        return f"{perC}%"
 
 def main():
     while True:
         try:
-            print(gause(convert(input("Fraction: "))))
+            print (fuel_gause(convert(input("Enter your fraction: "))))
         except (ValueError, ZeroDivisionError):
-            print("An error occured!!")
+            print("An error occured.")
         else:
             break
-
-
 
 main()
